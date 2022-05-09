@@ -145,7 +145,7 @@
         </div>
 
         {# CMS players #}
-        {% include "welcome-page_players.twig" %}
+        <!--{% include "welcome-page_players.twig" %} -->
 
         <div class="col-12 welcome-title">{% trans "We’d like to take you on a tour of the CMS using a series of short tutorials to get you up and running in no time. If you already know your way around, please skip." %}</div>
         
@@ -175,8 +175,8 @@
 
         <p class="col-12">{{ "Explore more of the features and functionality that [[PRODUCTNAME]] has to offer by clicking on the Manual link from the CMS main menu."|trans|replace({'[[PRODUCTNAME]]': theme.getThemeConfig('theme_title') }) }}</p>
 
-        {# CMS support #}
-        {% include "welcome-page_support.twig" %}
+        <!--{# CMS support #}
+        {% include "welcome-page_support.twig" %} -->
     </div>
 {% endblock %}
 

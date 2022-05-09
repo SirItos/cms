@@ -130,7 +130,7 @@ docker-compose up --build -d
 ## Login
 After the containers have come up you should be able to login with the details:
 
-U: `xibo_admin`
+U: `admin`
 P: `password`
 
 

@@ -380,7 +380,7 @@ class SavedReport extends Base
                 $emailTemplate,
                 [
                     'header' => $report->description,
-                    'logo' => ($showLogo) ? $this->getConfig()->uri('img/xibologo.png', true) : null,
+                    'logo' => ($showLogo) ? $this->getConfig()->uri('img/logo.png', true) : null,
                     'title' => $savedReport->saveAs,
                     'metadata' => $results->metadata,
                     'tableData' => $tableData ?? null,
