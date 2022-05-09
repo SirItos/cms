@@ -23,11 +23,11 @@
  * Theme Configuration Object
  */
 $config = array(
-        'theme_name' => 'Xibo Default Theme',
-		'theme_title' => 'Xibo Digital Signage',
-		'app_name' => 'Xibo',
-		'theme_url' => 'http://xibo.org.uk',
-		'cms_source_url' => 'https://github.com/xibosignage/xibo/',
-		'cms_install_url' => 'http://xibo.org.uk/manual/en/install_windows_client.html',
-		'cms_release_notes_url' => 'http://xibo.org.uk/manual/en/release_notes.html'
+    'theme_name' => 'МедиаПОТОК',
+		'theme_title' => '"МедиаПОТОК" Программный комплекс',
+		'app_name' => 'МедиаПОТОК',
+		'theme_url' => 'https://companies.rbc.ru/id/1107746755380-ooo-razvitie-innovatsionnyih-biznes-produktov/',
+		'cms_source_url' => 'https://github.com/SirItos/xibo-cms/',
+		'cms_install_url' => 'https://github.com/SirItos/xibo-cms',
+		'cms_release_notes_url' => 'https://github.com/SirItos/xibo-cms'
 	);

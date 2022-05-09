@@ -128,7 +128,7 @@ class InstallMigration extends AbstractMigration
             ->insert([
                 'userId' => 1,
                 'userTypeId' => 1,
-                'userName' => 'xibo_admin',
+                'userName' => 'admin',
                 'userPassword' => '5f4dcc3b5aa765d61d8327deb882cf99',
                 'loggedIn' => 0,
                 'lastAccessed' => null,
@@ -155,7 +155,7 @@ class InstallMigration extends AbstractMigration
             ->insert([
                 ['groupId' => 1, 'group' => 'Users', 'isUserSpecific' => 0, 'isEveryone' => 0, 'isSystemNotification' => 0],
                 ['groupId' => 2, 'group' => 'Everyone', 'isUserSpecific' => 0, 'isEveryone' => 1, 'isSystemNotification' => 0],
-                ['groupId' => 3, 'group' => 'xibo_admin', 'isUserSpecific' => 1, 'isEveryone' => 0, 'isSystemNotification' => 1],
+                ['groupId' => 3, 'group' => 'admin', 'isUserSpecific' => 1, 'isEveryone' => 0, 'isSystemNotification' => 1],
                 ['groupId' => 4, 'group' => 'System Notifications', 'isUserSpecific' => 0, 'isEveryone' => 0, 'isSystemNotification' => 1],
             ])
             ->save();

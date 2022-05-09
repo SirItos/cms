@@ -12,7 +12,7 @@
     <!-- Import CSS bundle from dist -->
     <script src="{{ theme.rootUri() }}dist/style.bundle.min.js?v={{ version }}&rev={{revision}}"></script>
 
-    <!-- Copyright 2006-2021 Xibo Signage Ltd. Part of the Xibo Open Source Digital Signage Solution. Released under the AGPLv3 or later. -->
+    <!-- копирайт ООО "Развитие Инновационных Бизнес Продуктов" 2022 -->
     <style type="text/css">
         body {
             padding-top: 40px;
@@ -57,7 +57,7 @@
                 <input name="priorRoute" type="hidden" value="{{ priorRoute }}" />
             {% endfor %}
             <input type="hidden" name="{{ csrfKey }}" value="{{ csrfToken }}" />
-            <p><a href="{{ theme.getThemeConfig("theme_url") }}"><img class="login-logo" src="{{ theme.uri("img/xibologo.png") }}"></a></p>
+            <p><a href="{{ theme.getThemeConfig("theme_url") }}"><img class="login-logo" src="{{ theme.uri("img/logo.png") }}"></a></p>
 
             <p>{% trans "Please provide your Two Factor Authorisation Code" %}</p>
             <input id="code" class="form-control input-block-level" name="code" type="text" placeholder="{% trans "Code" %}" autofocus>
@@ -76,7 +76,7 @@
             <input name="priorRoute" type="hidden" value="{{ priorRoute }}" />
         {% endfor %}
         <input type="hidden" name="{{ csrfKey }}" value="{{ csrfToken }}" />
-        <p><a href="{{ theme.getThemeConfig("theme_url") }}"><img class="login-logo" src="{{ theme.uri("img/xibologo.png") }}"></a></p>
+        <p><a href="{{ theme.getThemeConfig("theme_url") }}"><img class="login-logo" src="{{ theme.uri("img/logo.png") }}"></a></p>
 
         <p>{% trans "Please provide your Two Factor Authorisation Recovery Code" %}</p>
         <input id="recoveryCode" class="form-control input-block-level" name="recoveryCode" type="text" placeholder="{% trans "Recovery Code" %}" autofocus>
