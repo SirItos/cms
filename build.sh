@@ -10,7 +10,7 @@ done
 
 echo "Building an archive for $VERSION"
 
-
+# do not use. Get root image for build
 # Helper script to extract a release archive from a docker container (after building or pulling it).
 docker pull xibosignage/xibo-cms:"$VERSION"
 
