@@ -15793,7 +15793,7 @@ msgstr ""
 
 #: cache/51/51600c256f104451761c8e124e89846b7a0e7b8bff5a84fee2da70f333686e08.php:88
 msgid ""
-"If you have not yet created an empty database and database user for Xibo to "
+"If you have not yet created an empty database and database user for project to "
 "use, and know the user name / password of a MySQL administrator stay on this "
 "tab, otherwise click \"Use Existing\"."
 msgstr ""
